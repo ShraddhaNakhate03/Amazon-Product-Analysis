@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+dj-rest-auth = "*"
+django-allauth = "*"
+requests = "*"
+joblib = "*"
+nltk = "*"
+scikit-learn = "*"
+openai = "*"
+google-generativeai = "*"
+django-cors-headers = "*"
+cors = "*"
+selenium = "*"
+webdriver-manager = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
